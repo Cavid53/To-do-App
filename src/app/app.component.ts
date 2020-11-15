@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'testProject';
+  user = 'Cavid';
+  items = [
+    { description: 'Seher yemeyi', action: 'No' },
+    { description: 'Idman', action: 'No' },
+    { description: 'Borc', action: 'No' },
+    { description: 'Sinema', action: 'No' },
+  ];
 }
